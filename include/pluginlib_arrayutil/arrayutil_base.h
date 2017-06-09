@@ -1,3 +1,6 @@
+#ifndef PLUGINLIB_ARRAYUTIL_ARRAYUTIL_BASE_H_
+#define PLUGINLIB_ARRAYUTIL_ARRAYUTIL_BASE_H_
+
 #include <vector>
 
 namespace arrayutil_base 
@@ -17,3 +20,5 @@ namespace arrayutil_base
       std::vector<double> vec_;
   };
 };
+
+#endif

@@ -2,7 +2,7 @@
 #include <pluginlib_arrayutil/sum.h>
 #include <ros/ros.h>
 
-namespace arrayutil_plugins
+namespace arrayutil_plugins_sum
 {
   Sum::Sum(){}
 
@@ -24,4 +24,4 @@ namespace arrayutil_plugins
   }
 }
 
-PLUGINLIB_EXPORT_CLASS(arrayutil_plugins::Sum, arrayutil_base::ArrayUtil);
+PLUGINLIB_EXPORT_CLASS(arrayutil_plugins_sum::Sum, arrayutil_base::ArrayUtil);

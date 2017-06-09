@@ -2,7 +2,7 @@
 #include <pluginlib_arrayutil/ave.h>
 #include <ros/ros.h>
 
-namespace arrayutil_plugins
+namespace arrayutil_plugins_ave
 {
   Ave::Ave(){}
 
@@ -25,4 +25,4 @@ namespace arrayutil_plugins
   }
 }
 
-PLUGINLIB_EXPORT_CLASS(arrayutil_plugins::Ave, arrayutil_base::ArrayUtil);
+PLUGINLIB_EXPORT_CLASS(arrayutil_plugins_ave::Ave, arrayutil_base::ArrayUtil);

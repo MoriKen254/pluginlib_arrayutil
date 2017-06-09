@@ -2,7 +2,7 @@
 #include <pluginlib_arrayutil/min.h>
 #include <ros/ros.h>
 
-namespace arrayutil_plugins
+namespace arrayutil_plugins_min
 {
   Min::Min(){}
 
@@ -28,4 +28,4 @@ namespace arrayutil_plugins
   }
 }
 
-PLUGINLIB_EXPORT_CLASS(arrayutil_plugins::Min, arrayutil_base::ArrayUtil);
+PLUGINLIB_EXPORT_CLASS(arrayutil_plugins_min::Min, arrayutil_base::ArrayUtil);
